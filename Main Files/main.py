@@ -8,8 +8,18 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
 import os
 
+# --- Robust Path Generation ---
+# Get the absolute path of the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Go up one level to get the project's root directory
+project_root = os.path.dirname(script_dir)
+# Construct paths relative to the project root
+DATA_FILE_PATH = os.path.join(project_root, 'data', 'sonar_acoustic_dataset.csv')
+RESULTS_DIR = os.path.join(project_root, 'results')
+
+
 #  1. DATA LOADING AND PREPARATION
-def load_data(file_path="data/sonar_acoustic_dataset.csv"):
+def load_data(file_path=DATA_FILE_PATH):
     """
     Loads the sonar data from a CSV file.
     """
@@ -212,9 +222,8 @@ Most Common Confusions:
 # MAIN SCRIPT EXECUTION
 if __name__ == "__main__":
     # --- Setup Directories ---
-    results_dir = 'results'
-    images_dir = os.path.join(results_dir, 'images')
-    reports_dir = os.path.join(results_dir, 'reports')
+    images_dir = os.path.join(RESULTS_DIR, 'images')
+    reports_dir = os.path.join(RESULTS_DIR, 'reports')
     os.makedirs(images_dir, exist_ok=True)
     os.makedirs(reports_dir, exist_ok=True)
 
