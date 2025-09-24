@@ -1,0 +1,14 @@
+ERROR ANALYSIS REPORT
+====================
+Summary:
+- Total test samples: 1200
+- Misclassified samples: 61
+- Overall error rate: 5.1%
+
+Most Common Confusions:
+ True  Predicted  Count
+    2          3     30
+    3          2     14
+    2          1      6
+    3          0      6
+    1          2      4

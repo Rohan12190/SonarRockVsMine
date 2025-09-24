@@ -1,0 +1,30 @@
+SONAR ACOUSTIC CLASSIFICATION REPORT
+====================================
+Generated on: 2025-09-25 00:05:27
+
+DATASET SUMMARY
+---------------
+- Total samples: 6000
+- Number of features: 13
+- Number of classes: 4
+
+Class Distribution:
+--------------------
+Source 0: 1493 samples (24.9%)
+Source 1: 1492 samples (24.9%)
+Source 2: 1498 samples (25.0%)
+Source 3: 1517 samples (25.3%)
+
+BEST MODEL CONFIGURATION
+------------------------
+- Algorithm: K-Nearest Neighbors (KNN)
+- Optimal K value: 18
+- Distance metric: Euclidean (default)
+- Weights: Uniform
+
+PERFORMANCE METRICS
+-------------------
+- Accuracy: 94.92%
+- Precision (weighted): 94.92%
+- Recall (weighted): 94.92%
+- F1-Score (estimated): 94.92%
