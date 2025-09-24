@@ -1,0 +1,9 @@
+#pip install -r requirements.txt  --> coomand to run to install all these library
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+streamlit
+streamlit-option-menu
