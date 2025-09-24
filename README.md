@@ -16,8 +16,7 @@ This project is deployed as an interactive Streamlit dashboard. You can interact
 ➡️ **[Launch the Interactive Dashboard](# "Replace with your deployment link!")**
 
 <p align="center">
-<em>(Replace this text with a high-quality GIF or screenshot of your dashboard)</em><br><br>
-<img src="https://i.imgur.com/your-screenshot-placeholder.png" alt="Dashboard Preview" width="800"/>
+<em><img width="1919" height="1079" alt="Screenshot 2025-09-25 003157" src="https://github.com/user-attachments/assets/1a47703f-2436-4373-bc25-555866f03b8f" />
 </p>
 
 > **Tip:** To create a great GIF, use a tool like [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (macOS) to record your dashboard in action.
