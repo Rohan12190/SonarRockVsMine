@@ -162,10 +162,10 @@ elif page == "Exploratory Data Analysis":
         st.subheader("Model Analysis Visuals")
         
         # --- CORRECTED IMAGE PATHS ---
-        # Paths are now relative to the project root, pointing into the 'main file' folder
-        k_path = "main file/results/images/k_optimization.png"
-        error_path = "main file/results/images/error_analysis.png"
-        heatmap_path = "main file/results/images/Rplot3.png"
+        # Paths are now relative to the project root, as 'results' is in the root.
+        k_path = "results/images/k_optimization.png"
+        error_path = "results/images/error_analysis.png"
+        heatmap_path = "results/images/Rplot3.png"
 
         col1, col2 = st.columns(2)
         with col1:
@@ -195,8 +195,9 @@ elif page == "Model Performance":
     
     if X is not None:
         # --- CORRECTED IMAGE PATHS ---
-        lollipop_path = "main file/results/images/Rplot1.png"
-        dumbbell_path = "main file/results/images/Rplot2.png"
+        # Paths are now relative to the project root.
+        lollipop_path = "results/images/Rplot1.png"
+        dumbbell_path = "results/images/Rplot2.png"
 
         st.subheader("Standalone Model Performance")
         if os.path.exists(lollipop_path):
