@@ -10,7 +10,6 @@ env/
 venv.bak/
 env.bak/
 
-results/
 .DS_Store
 Thumbs.db
 *~
